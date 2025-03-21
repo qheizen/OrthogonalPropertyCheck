@@ -6,8 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c0da6b31-3321-4ac8-a19b-ad5aec060757" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KoshiDerivation/KoshiDerivation.py" beforeDir="false" afterPath="$PROJECT_DIR$/KoshiDerivation/Derivation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KoshiDerivation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/KoshiDerivation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KoshiDerivation/Derivation.py" beforeDir="false" afterPath="$PROJECT_DIR$/KoshiDerivation/Derivation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/COLLECT-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/COLLECT-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MatrixSolve.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Derivation.executor": "Run",
     "Python.KoshiDerivation.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.main.executor": "Run",

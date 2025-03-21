@@ -65,7 +65,7 @@
  [],
  False,
  False,
- 1742432201,
+ 1742559591,
  [('run.exe',
    'E:\\Python\\KoshiMatrixDerivation\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
