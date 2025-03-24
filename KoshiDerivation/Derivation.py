@@ -28,7 +28,7 @@ def generate_refraction_matrices() -> List[np.ndarray]:
 
 def random_matrix_calculate(size: int = MATRIX_SIZE) -> np.ndarray:
     matrix = np.random.rand(size, size).astype(HIGH_PRECISION_DTYPE)
-    matrix *= np.random.randint(0,10000)
+    matrix *= np.random.randint(-10000,10000)
     return matrix
 
 
@@ -52,6 +52,11 @@ def is_equal(a: HIGH_PRECISION_DTYPE, b: HIGH_PRECISION_DTYPE) -> bool:
 def get_orthogonal_random_matrix() -> np.ndarray:
     random_matrix = random_matrix_calculate(MATRIX_SIZE)
     Q, R = np.linalg.qr(random_matrix.astype(HIGH_PRECISION_DTYPE))
+
+    if np.random.rand() > 0.5:
+        col = np.random.randint(0, MATRIX_SIZE)
+        Q[:, col] *= -1
+
     return Q
 
 

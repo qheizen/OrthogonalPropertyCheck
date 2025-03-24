@@ -1,8 +1,10 @@
 from math import factorial
 
 import numpy
+import numpy as np
 import KoshiDerivation.Derivation as ksh
 import os
+
 ROUND_COEF = 4
 STAT_COUNT = 10000
 
@@ -32,9 +34,6 @@ def print_abnormal_matrix(dets, matrix, matrix1, t, matrix2, num):
 def check_is_matrix_abnormal(det):
     return min(det) >= 1/(factorial(ksh.MATRIX_SIZE) * (2**(ksh.MATRIX_SIZE-1)))
 
-# для 4 порядка - 1/8*24
-# для 5 1/5факториал*2^4
-
 def set_matrix_size():
     print(f"Укажите значение типа int")
     ksh.MATRIX_SIZE = int(input())
@@ -45,8 +44,14 @@ def set_stat_size():
 
 def calc_single_pe_abs(): #1
     transitive_matrices = ksh.get_all_variations_of_pe()
-    matrix1 = ksh.get_orthogonal_random_matrix()
-    matrix2 = ksh.get_orthogonal_random_matrix()
+    matrix1 = np.array([])
+    matrix2 = np.array([])
+    checker = False
+    while not checker:
+        matrix1 = ksh.get_orthogonal_random_matrix()
+        matrix2 = ksh.get_orthogonal_random_matrix()
+        if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+            checker = True
 
     variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
 
@@ -61,8 +66,14 @@ def calc_single_pe_abs(): #1
 
 def calc_single_p_abs(): #2
     transitive_matrices = ksh.generate_permutation_matrices()
-    matrix1 = ksh.get_orthogonal_random_matrix()
-    matrix2 = ksh.get_orthogonal_random_matrix()
+    matrix1 = np.array([])
+    matrix2 = np.array([])
+    checker = False
+    while not checker:
+        matrix1 = ksh.get_orthogonal_random_matrix()
+        matrix2 = ksh.get_orthogonal_random_matrix()
+        if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+            checker = True
 
     variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
 
@@ -77,8 +88,14 @@ def calc_single_p_abs(): #2
 
 def calc_single_pe(): #3
     transitive_matrices = ksh.get_all_variations_of_pe()
-    matrix1 = ksh.get_orthogonal_random_matrix()
-    matrix2 = ksh.get_orthogonal_random_matrix()
+    matrix1 = np.array([])
+    matrix2 = np.array([])
+    checker = False
+    while not checker:
+        matrix1 = ksh.get_orthogonal_random_matrix()
+        matrix2 = ksh.get_orthogonal_random_matrix()
+        if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+            checker = True
 
     variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
 
@@ -93,8 +110,14 @@ def calc_single_pe(): #3
 
 def calc_single_p(): #4
     transitive_matrices = ksh.generate_permutation_matrices()
-    matrix1 = ksh.get_orthogonal_random_matrix()
-    matrix2 = ksh.get_orthogonal_random_matrix()
+    matrix1 = np.array([])
+    matrix2 = np.array([])
+    checker = False
+    while not checker:
+        matrix1 = ksh.get_orthogonal_random_matrix()
+        matrix2 = ksh.get_orthogonal_random_matrix()
+        if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+            checker = True
 
     variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
 
@@ -112,8 +135,14 @@ def calc_many_pe_abs():
     index_stat = [0] * (len(transitive_matrices) + 1)
     counter_anti = 0
     for k in range(STAT_COUNT):
-        matrix1 = ksh.get_orthogonal_random_matrix()
-        matrix2 = ksh.get_orthogonal_random_matrix()
+        matrix1 = np.array([])
+        matrix2 = np.array([])
+        checker = False
+        while not checker:
+            matrix1 = ksh.get_orthogonal_random_matrix()
+            matrix2 = ksh.get_orthogonal_random_matrix()
+            if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+                checker = True
 
         variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
         counter = 0
@@ -148,8 +177,14 @@ def calc_many_p_abs():
     index_stat = [0] * (len(transitive_matrices) + 1)
     counter_anti = 0
     for k in range(STAT_COUNT):
-        matrix1 = ksh.get_orthogonal_random_matrix()
-        matrix2 = ksh.get_orthogonal_random_matrix()
+        matrix1 = np.array([])
+        matrix2 = np.array([])
+        checker = False
+        while not checker:
+            matrix1 = ksh.get_orthogonal_random_matrix()
+            matrix2 = ksh.get_orthogonal_random_matrix()
+            if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+                checker = True
 
         variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
         counter = 0
@@ -182,8 +217,14 @@ def calc_many_pe():
     index_stat = [0] * (len(transitive_matrices) + 1)
     counter_anti = 0
     for k in range(STAT_COUNT):
-        matrix1 = ksh.get_orthogonal_random_matrix()
-        matrix2 = ksh.get_orthogonal_random_matrix()
+        matrix1 = np.array([])
+        matrix2 = np.array([])
+        checker = False
+        while not checker:
+            matrix1 = ksh.get_orthogonal_random_matrix()
+            matrix2 = ksh.get_orthogonal_random_matrix()
+            if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+                checker = True
 
         variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
         counter = 0
@@ -215,8 +256,14 @@ def calc_many_p():
     index_stat = [0] * (len(transitive_matrices) + 1)
     counter_anti = 0
     for k in range(STAT_COUNT):
-        matrix1 = ksh.get_orthogonal_random_matrix()
-        matrix2 = ksh.get_orthogonal_random_matrix()
+        matrix1 = np.array([])
+        matrix2 = np.array([])
+        checker = False
+        while not checker:
+            matrix1 = ksh.get_orthogonal_random_matrix()
+            matrix2 = ksh.get_orthogonal_random_matrix()
+            if numpy.linalg.det(matrix1) * numpy.linalg.det(matrix2) > 0:
+                checker = True
 
         variants = [matrix1 @ t @ matrix2 for t in transitive_matrices]
         counter = 0
