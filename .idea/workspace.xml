@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0da6b31-3321-4ac8-a19b-ad5aec060757" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/KoshiMatrixDiv/ConsolePresent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KoshiMatrixDiv/MatrixOperation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KoshiMatrixDiv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainOld.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KoshiDerivation/Derivation.py" beforeDir="false" afterPath="$PROJECT_DIR$/KoshiDerivation/Derivation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main/COLLECT-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/COLLECT-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
@@ -15,11 +18,15 @@
       <change beforePath="$PROJECT_DIR$/build/main/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main/main.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dist.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.rar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/DELVEWHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/DELVEWHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/_internal/numpy-2.2.4.dist-info/entry_points.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main/main.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/описание.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,17 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Derivation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KoshiDerivation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Derivation.executor": "Run",
+    "Python.KoshiDerivation.executor": "Run",
+    "Python.MatrixOperation.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.roflomain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
